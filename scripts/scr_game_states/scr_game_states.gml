@@ -1,0 +1,5 @@
+INIT = 0;
+PLAYING = 1;
+OVER = 2;
+PAUSED = 3;
+END_OF_TURN = 4;
