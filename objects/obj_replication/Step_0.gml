@@ -1,6 +1,8 @@
-if (time_limit > time_index) {
-	x = x_pos[time_index];
-	y = y_pos[time_index];
+var step = obj_game_controller.TIMELIME_STEP;
+visible = 0;
 
-	time_index++;
+if (step < length && step >= INITIAL_STEP) {
+	visible = 1;
+	x = x_pos[step];
+	y = y_pos[step];
 }

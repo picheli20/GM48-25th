@@ -11,6 +11,7 @@ if(keyboard_check(ord(key))){
 		case "A":
 			//<statement>;
 			//scr_window_shake(300, 10);
+			obj_game_controller.TIMELIME_STEP = 0;
 		break;
 		case "B":
 			//<statement>;
