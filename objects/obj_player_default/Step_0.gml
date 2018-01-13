@@ -12,7 +12,7 @@ var step = obj_game_controller.TIMELIME_STEP;
 
 if key_space {
 	if recording {
-		var replication = instance_create_layer(x, y, "Instances", obj_replication);
+		var replication = instance_create_layer(x, y, "Instances", replicationObj);
 		replication.INITIAL_STEP = STEP_RECORD;
 		x_pos = [];
 		y_pos = [];
@@ -34,4 +34,4 @@ y = y + vsp;
 x_pos[step] = x;
 y_pos[step] = y;
 
-
+scr_place_track(x, y);

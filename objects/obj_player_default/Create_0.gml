@@ -8,6 +8,7 @@ y_pos = [];
 STEP_RECORD = 0;
 
 recording = false;
+active = false;
 
 initialPosX = x; 
 initialPosY = y;

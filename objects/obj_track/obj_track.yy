@@ -1,28 +1,28 @@
 {
-    "id": "21b18ca4-5f65-4396-8d81-3abe9ac3e575",
+    "id": "3c79ccfa-c345-41f0-be57-8a21dfdae348",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player_default",
+    "name": "obj_track",
     "eventList": [
         {
-            "id": "36e56cc5-0c8a-4daa-b432-2cc1c7c5f46e",
+            "id": "2d2bfd74-b730-4198-bf23-50ad0eea8455",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "21b18ca4-5f65-4396-8d81-3abe9ac3e575"
+            "m_owner": "3c79ccfa-c345-41f0-be57-8a21dfdae348"
         },
         {
-            "id": "c46abf24-e1d1-4d42-9871-bb6e59c34393",
+            "id": "2f43c96e-fb36-4b00-a8ed-1fe0db9a825d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "21b18ca4-5f65-4396-8d81-3abe9ac3e575"
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "3c79ccfa-c345-41f0-be57-8a21dfdae348"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,22 +42,9 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "53e6c0f6-b5fa-4176-bb66-0a8dd81e3ad2",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "obj_replication",
-            "varName": "replicationObj",
-            "varType": 5
-        }
+        
     ],
     "solid": false,
-    "spriteId": "1fdb2289-16f5-4dec-8aba-1eff44b0d59e",
+    "spriteId": "3893c4d1-092d-495b-b71a-313ec656172f",
     "visible": true
 }
